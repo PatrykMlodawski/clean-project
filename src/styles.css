@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  height: 200vh;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(to right, rgb(42, 140, 238), rgb(108, 177, 241));
+  color: white;
+  padding: 10px 5px 10px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.logo {
+  flex-basis: 40%;
+  text-align: center;
+}
+
+.logo .title {
+  font-size: 18px;
+  line-height: 1em;
+}
+
+.logo .signature {
+  font-size: 14px;
+  margin-top: 5px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.menu {
+  flex-basis: 55%;
+}
+
+.menu-nav {
+  height: 100%;
+}
+
+.menu-list {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.menu-list .list-item a {
+  color: white;
+  font-size: 14px;
+}
+
+.main-content {
+  margin-top: 60px;
+  color: #07393c;
+}
+
+.about {
+  background-image: url('./pictures/about-mobile.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.about-content {
+  font-size: 24px;
+  margin-top: 20px;
+  padding-bottom: 75px;
+  text-align: justify;
+}
+
+.offer {
+  padding: 10px;
+}
+
+.offer-title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.offer-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.offer-list .list-item {
+  flex-basis: 48%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 10px 5px;
+  border: solid 1px #bbb;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 2px #ddd;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.offer-list .list-item img {
+  margin-bottom: 5px;
+}
+
+.list-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.effects {
+  height: 500px;
+  text-align: center;
+  background-color: rgb(108, 177, 241);
+  padding: 10px;
+}
+
+.effects-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  color: #07393c;
+  padding: 10px;
+}
+
+.contacts {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.contact-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.contact {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact img {
+  width: 26px;
+}
+
+.contact span {
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.contact a {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  color: #07393c;
+}
