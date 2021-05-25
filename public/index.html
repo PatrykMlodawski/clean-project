@@ -34,42 +34,104 @@
       <section id="about" class="about">
         <h2 class="about-title">O nas</h2>
         <p class="about-content">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos recusandae porro ipsam
-          odit, veritatis voluptatem alias quibusdam obcaecati illum assumenda itaque voluptatum,
-          illo optio perspiciatis. Quaerat pariatur voluptate qui deserunt?
+          Firma zajmująca się profesjonalnym sprzątaniem biur, mieszkań, domów, klatek schodowych,
+          samochodów i ozonowaniem pomieszczeń. Dbamy o perfekcyjną dokładność, estetykę i wygląd.
         </p>
       </section>
       <section class="offer" id="offer">
         <h2 class="offer-title">Usługi</h2>
         <ul class="offer-list">
           <li class="list-item">
-            <img src="../src/pictures/office-200.jpg" alt="" />
+            <img
+              srcset="../src/pictures/office-300.jpg 300w, ../src/pictures/office-500.jpg 500w"
+              sizes="(max-width: 690px) 300px, 500px"
+              src="../src/pictures/office-500.jpg"
+              alt=""
+            />
             <p>Sprzątanie biur</p>
           </li>
           <li class="list-item">
-            <img src="../src/pictures/staircase-200.jpg" alt="" />
+            <img
+              srcset="
+                ../src/pictures/staircase-300.jpg 300w,
+                ../src/pictures/staircase-500.jpg 500w
+              "
+              sizes="(max-width: 690px) 300px, 500px"
+              src="../src/pictures/staircase-500.jpg"
+              alt=""
+            />
             <p>Sprzątanie klatek schodowych</p>
           </li>
           <li class="list-item">
-            <img src="../src/pictures/home-200.jpg" alt="" />
+            <img
+              srcset="../src/pictures/home-300.jpg 300w, ../src/pictures/home-500.jpg 500w"
+              sizes="(max-width: 690px) 300px, 500px"
+              src="../src/pictures/home-500.jpg"
+              alt=""
+            />
             <p>Sprzątanie domów i mieszkań po remontach</p>
           </li>
           <li class="list-item">
-            <img src="../src/pictures/upholstery-200.jpg" alt="" />
+            <img
+              srcset="
+                ../src/pictures/upholstery-300.jpg 300w,
+                ../src/pictures/upholstery-500.jpg 500w
+              "
+              sizes="(max-width: 690px) 300px, 500px"
+              src="../src/pictures/upholstery-500.jpg"
+              alt=""
+            />
             <p>Pranie tapicerek</p>
           </li>
           <li class="list-item">
-            <img src="../src/pictures/car-upholstery-200.jpg" alt="" />
+            <img
+              srcset="
+                ../src/pictures/car-upholstery-300.jpg 300w,
+                ../src/pictures/car-upholstery-500.jpg 500w
+              "
+              sizes="(max-width: 690px) 300px, 500px"
+              src="../src/pictures/car-upholstery-500.jpg"
+              alt=""
+            />
             <p>Pranie tapicerek samochodowych</p>
           </li>
           <li class="list-item">
-            <img src="../src/pictures/windows-200.jpg" alt="" />
+            <img
+              srcset="../src/pictures/window-300.jpg 300w, ../src/pictures/window-500.jpg 500w"
+              sizes="(max-width: 690px) 300px, 500px"
+              src="../src/pictures/window-500.jpg"
+              alt=""
+            />
             <p>Mycie okien</p>
           </li>
         </ul>
       </section>
       <section id="effects" class="effects">
         <h2 class="effects-title">Nasze efekty</h2>
+        <!-- Swiper -->
+
+        <div class="swiper-container mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="photo before before1"></div>
+              <div class="photo after after1"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="photo before before2"></div>
+              <div class="photo after after2"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="photo before before3"></div>
+              <div class="photo after after3"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="photo one one1"></div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
       </section>
     </main>
     <footer id="contact">
@@ -77,20 +139,14 @@
       <div class="contacts">
         <div class="contact phone">
           <img src="../src/pictures/phone-icon.png" alt="" />
-          <span>+48 123 456 789</span>
+          <span>+48 511 833 513</span>
         </div>
         <div class="contact mail">
           <img src="../src/pictures/mail-icon.png" alt="" />
-          <span>asdfghj@gmail.com</span>
-        </div>
-        <div class="contact fb">
-          <a href="#">
-            <img src="../src/pictures/fb-icon.png" alt="" />
-            <span>/facebook</span>
-          </a>
+          <span>firmasprzatajaca21@wp.pl</span>
         </div>
       </div>
     </footer>
-    <script src="../src/js/index.js"></script>
+    <script async src="../src/js/index.js"></script>
   </body>
 </html>
