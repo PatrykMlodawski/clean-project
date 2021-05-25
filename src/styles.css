@@ -470,6 +470,11 @@ footer {
   .menu-list .list-item a:hover::after {
     transform: translateX(0);
   }
+
+  .photo::after {
+    padding: 2px 30px;
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1280px) {
