@@ -156,13 +156,13 @@ header {
 footer {
   text-align: center;
   color: #07393c;
-  padding: 10px;
 }
 
 .contacts {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  padding: 10px;
 }
 
 .contact-title {
@@ -185,6 +185,13 @@ footer {
 .contact span {
   margin-left: 5px;
   font-size: 18px;
+}
+
+.contact a {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  color: #07393c;
 }
 
 .swiper-container {
@@ -271,6 +278,17 @@ footer {
 
 .one1 {
   background-image: url('../src/pictures/one1-400.jpg');
+}
+
+.copyright {
+  height: 30px;
+  background-color: #122130;
+  color: white;
+}
+
+.copyright span {
+  line-height: 30px;
+  font-size: 12px;
 }
 
 @media (min-width: 500px) {
